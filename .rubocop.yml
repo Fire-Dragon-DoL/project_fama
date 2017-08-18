@@ -1,0 +1,36 @@
+AllCops:
+  EnabledByDefault: true
+  Include:
+    - "**/Rakefile"
+    - "exe/**/*"
+    - "lib/**/*"
+    - "tests/**/*"
+  Exclude:
+    - "binstubs/**/*"
+    - "bin/**/*"
+    - "Gemfile"
+    - "*.gemspec"
+
+Style/StringLiterals:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/Copyright:
+  Enabled: false
+Style/MethodCallWithArgsParentheses:
+  IgnoredMethods:
+    - require
+    - require_relative
+    - test
+    - context
+    - assert
+    - refute
+    - task
+    - desc
+    - command_name
+Style/SymbolArray:
+  Enabled: false
+Style/LambdaCall:
+  EnforcedStyle: braces
+Layout/SpaceAroundEqualsInParameterDefault:
+  EnforcedStyle: no_space

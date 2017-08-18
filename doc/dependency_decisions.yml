@@ -1,0 +1,13 @@
+---
+- - :ignore_group
+  - development
+  - :who: Fire-Dragon-DoL
+    :why: Used only during development, not released within the executable
+    :versions: []
+    :when: 2017-08-18 06:29:45.183357982 Z
+- - :approve
+  - project_fama
+  - :who: Fire-Dragon-DoL
+    :why: The gem itself
+    :versions: []
+    :when: 2017-08-18 06:30:40.798267916 Z

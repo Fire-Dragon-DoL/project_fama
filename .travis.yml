@@ -1,0 +1,17 @@
+env:
+  global:
+    - GIT_COMMITTED_AT=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git log -1 --pretty=format:%ct; else git log -1 --skip 1 --pretty=format:%ct; fi)
+    - COVERAGE=true
+    - TEST_BENCH_COLOR=on
+sudo: false
+language: ruby
+cache: bundler
+rvm:
+  - 2.3.3
+before_install: gem install bundler
+after_script:
+  - >
+    if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
+      bundle exec codeclimate-test-reporter after-build \
+        --exit-code $TRAVIS_TEST_RESULT
+    fi
