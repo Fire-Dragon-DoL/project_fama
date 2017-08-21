@@ -11,3 +11,16 @@
     :why: The gem itself
     :versions: []
     :when: 2017-08-18 06:30:40.798267916 Z
+- - :whitelist
+  - MIT
+  - :who: Francesco
+    :why: Main license for ruby gems, usable almost everywhere
+    :versions: []
+    :when: 2017-08-21 11:20:45.249017012 Z
+- - :whitelist
+  - Apache 2.0
+  - :who: Francesco
+    :why: License compatible with GPL-3.0, check https://www.apache.org/licenses/GPL-compatibility.html
+      for more info
+    :versions: []
+    :when: 2017-08-21 11:22:09.732577675 Z

@@ -29,7 +29,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "evt-initializer", ">= 0.1.0.2"
   spec.add_runtime_dependency "evt-telemetry",   ">= 0.3.1.0"
   spec.add_runtime_dependency "naught",          ">= 1.1.0"
-  spec.add_runtime_dependency "thor",            ">= 0.20.0"
 
   spec.add_development_dependency "bundler-audit",             ">= 0.6"
   spec.add_development_dependency "bundler",                   ">= 1.15"

@@ -1,0 +1,3 @@
+require "dependency"
+
+Dependency.activate

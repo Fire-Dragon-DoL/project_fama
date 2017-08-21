@@ -34,3 +34,5 @@ Style/LambdaCall:
   EnforcedStyle: braces
 Layout/SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: no_space
+Style/DocumentationMethod:
+  Enabled: false

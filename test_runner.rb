@@ -6,7 +6,7 @@ class TestRunner
   def self.call(argv=nil)
     argv ||= ARGV
 
-    tests = File.expand_path("../tests", __FILE__)
+    tests = File.expand_path("../test", __FILE__)
     $LOAD_PATH.unshift(tests) unless $LOAD_PATH.include?(tests)
 
     TestBench::CLI.(
